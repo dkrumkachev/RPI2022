@@ -1,0 +1,381 @@
+body {
+    margin: 0 auto;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 16px;
+    color: #a5a5a5;
+    height: 3140px;
+    max-width: 1800px;
+    position: relative;
+    line-height: 1;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+.blue__btns{
+    font-weight: 600;
+    background: linear-gradient(145deg, #582c7e, 70%, #6378cf);
+    box-shadow: -2px 3px 10px #5552c8;
+    font-family: inherit;
+    border: none;
+  }
+
+.blue__btns:hover{
+    opacity: 0.9;
+    background: linear-gradient(0.25turn, #3dafe2, #5e7bea);
+    box-shadow: -2px 3px 10px #88d6d2;
+}
+
+/* =================================== header ====================================*/
+.header {
+    padding-top: 75px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto 30px;
+}
+
+.header__logo {
+    font-size: 30px;
+    color: #858688;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 25px;
+}
+
+.span__mail {
+    color: #5b4295;    
+}
+
+.header__link{
+    padding-top: 8px;
+}
+
+
+.language__block{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lang--item{
+    padding: 0 10px 0;
+}
+
+.lang--item:hover{
+    cursor: pointer;
+}
+
+.lang--item:first-child{
+    padding-left: 0;
+}
+
+.nav--link {
+    text-decoration: none;
+    color: #454545;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.header__link:after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #454545;
+}
+
+.header__link:hover:after{
+    display: block;
+}
+
+.header__link:hover{
+    color: #6f6f6e;
+    font-weight: 700;
+}
+
+.sign__panel a{
+    text-decoration: none;
+}
+
+.sign__panel {
+    display: inline-block;
+    
+}
+
+.log__in {
+    color: #454545;
+    margin-right: 24px;
+    font-weight: 700;
+}
+
+.fa-solid{
+    margin-right: 9px;
+    margin-left: 50px;
+    color: #582c7e;
+}
+
+.sign--up--btn{
+    width: 94px;
+    height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0;
+    border-radius: 25px;
+}
+
+.log__in:hover{
+    opacity: 0.7; 
+}
+
+
+/* ================================= main ==========================*/
+
+
+
+/* ============================ intro ================================ */
+.intro__block{
+    height: 628px;
+    position: relative;
+    background: url("../images/topbg.jpg") 50% no-repeat;
+    
+    
+}
+
+.intro__text{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 530px;
+    padding-right: 31px;
+    padding-top: 100px;
+    
+}
+.intro__block h2{
+    font-size: 60px;
+    color: #6f6f6e; 
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+.intro__block p{
+    font-size: 36px;
+    color: #6f6f6e;
+    font-weight: 400;
+    margin-bottom: 75px;
+}
+
+.intro__block span{
+    color: #fc595d;
+}
+
+.create--account--btn{
+    height: 58px;
+    width: 245px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 21px;
+    padding-bottom: 5px;
+}
+
+.intro__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 385px;
+    margin-left: 180px;
+    opacity: 0.9;
+}
+
+.intro__icon{
+    font-size: 22px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    color: white;
+}
+.apple--icon--btn{
+    margin-right: 21px;
+}
+
+.fa-google-play{
+    padding-left: 3px;
+}
+
+.fa-apple{
+    padding-bottom: 8px;
+}
+
+.create--account--btn a{
+    padding-bottom: 20px;
+}
+
+.sm__icons__panel{
+    padding-top: 25px;
+}
+
+.right__panel__btns{
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    background-color: #676766;
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+/* ===================== info ======================== */
+.info_blocks {
+    display: flex;
+    padding-left: 322px;
+    position: absolute;
+    top: 920px;
+}
+
+.SwissPrivacy {
+    width: 358px;
+}
+.DoubleEncryption {
+    margin-left: 80px;
+    width: 340px;
+}
+.AnonymousEmail {
+    margin-left: 97px;
+    width: 363px;
+}
+
+.block_name {
+    padding-left: 60px;
+}
+
+.line1 { 
+    line-height: 37px;
+    font-size: 30px;
+    color: #555555;
+}
+.line2 { 
+    line-height: 22px;
+    font-size: 18px;
+    color: #959393;
+}
+
+.block_text {
+    margin-top: 30px;
+    word-wrap: normal;
+    line-height: 1.571;
+    font-size: 14px;
+    color: #959393;
+}
+
+.shield_img {
+    background-image: url("../images/shield.png");  
+    position: absolute;
+    left: 308px;
+    width: 67px;
+    height: 68px;
+}
+.lock_img {
+    background-image: url("../images/lock.png");
+    position: absolute;
+    left: 732px;
+    width: 95px;
+    height: 60px;
+    z-index: -1;
+}
+.key_img {
+    background-image: url("../images/key.png");
+    position: absolute;
+    left: 1181px;
+    width: 70px;
+    height: 60px;
+}
+
+.PhysicalSecurity {
+    position: absolute;
+    top: 1213px;
+    text-align: right;
+    width: 622px;
+    margin-left: 481px;
+    margin-right: auto;
+}
+.PhysicalSecurity div {
+    font-size: 60px;
+    margin: 0;
+    color: rgb(83, 83, 83);
+    line-height: 0.367;
+    text-align: right;
+}
+.PhysicalSecurity p {
+    margin-top: 30px;
+    font-size: 24px;
+    color: rgb(149, 147, 147);
+    line-height: 0.917;
+    text-align: right;
+}
+.PhysicalSecurity p span{
+    color: #f65151;
+}
+
+.btn_Security {
+    position: absolute;
+    left: 974px;
+    top: 1351px;
+    width: 334px;
+    height: 62px;
+    
+    border: 1px solid;
+    border-color: rgb(185, 185, 185);
+    border-radius: 31px;   
+    background-color: #ffffff;
+    text-align: center;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.375;
+}
+.btn_Security a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: rgb(103, 103, 103);
+    padding-top: 16px;
+}
+.btn_Security:hover {
+    
+    box-shadow: -2px 2px 10px #181818;
+    /* opacity: 0.8;
+    background: linear-gradient(0.25turn, #3dafe2, #5e7bea);
+    box-shadow: -2px 2px 10px #5552c8; */
+}
+
+  
+
+
+

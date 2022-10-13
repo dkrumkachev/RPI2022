@@ -550,3 +550,88 @@ h1, h2, h3, h4, h5, h6, p{
 
 /* ===================== footer ======================== */
 
+footer {
+    display: flex;
+    max-width: 1200px;
+    height: 180px;
+    width: 100%;
+    margin-left: 200px;
+    position: absolute;
+    top: 2828px;
+}
+
+.contacts {
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 1px;
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 23px;
+}
+.contacts a {
+    text-decoration: underline;
+}
+.links_list{
+    text-align: right;
+    line-height: 23px;
+    color: #5c5c5c;
+}
+.links_list ul {
+    direction: rtl;
+    margin: 36px 0 0;
+    padding: 0;
+    padding-right: 18px;
+    font-size: 14px;
+}
+.links_list h4 {
+    font-size: 18px;
+}
+.links_list a {
+    text-decoration: solid;
+}
+.links_list a:hover {
+    text-decoration: underline;
+}
+
+.company_section {
+    width: 74px;
+    position: absolute;
+    left: 647px;
+}
+.legal_section {
+    width: 140px;
+    position: absolute;
+    left: 837px;
+}
+.neutronmail_section {
+    width: 113px;
+    position: absolute;
+    left: 1070px;
+}
+
+.social_media_nav {
+    position: absolute;
+    top: 237px;
+}
+.social_media_nav nav a{
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #5c5c5c;
+    font-size: 12px;
+    line-height: 23px;
+    text-decoration: solid;
+}
+.social_media_nav nav a:first-child {
+    padding-left: 0;
+}
+.social_media_nav nav a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    position: absolute;
+    top: 268px;
+    color: #5c5c5c;
+    font-size: 12px;
+    line-height: 23px;
+}

@@ -175,7 +175,6 @@ h1, h2, h3, h4, h5, h6, p{
 
 .sign--up--btn{
     width: 94px;
-    padding: 6px 0 11px;
     font-size: 16px;
     color: #ffffff;
     border-radius: 25px;
@@ -184,8 +183,8 @@ h1, h2, h3, h4, h5, h6, p{
 
 .sign--up--btn a{
     letter-spacing: 0.5px;
-    font-size: 16px;  
-    
+    font-size: 16px; 
+    padding: 6px 0 11px;
 }
 .log__in:hover{
     opacity: 0.7; 

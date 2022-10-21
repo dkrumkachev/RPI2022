@@ -516,6 +516,60 @@ h1, h2, h3, h4, h5, h6, p{
     width: 943px;
     height: 66px;
 }
+.publications_btns {
+    opacity: 0;
+    position: absolute;
+    left: 37px;
+    top: 1478px;
+    display: flex;
+}
+.publications_btn {
+    padding: 0;
+    margin: 0;
+}
+.publications_btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.publications_btn:nth-child(1) {
+    width: 125px;
+    height: 14px;
+}
+.publications_btn:nth-child(2) {
+    margin-left: 49px;
+    width: 101px;
+    height: 12px;
+}
+.publications_btn:nth-child(3) {
+    position: relative;
+    top: -2px;
+    margin-left: 61px;
+    width: 106px;
+    height: 17px;
+}
+.publications_btn:nth-child(4) {
+    position: relative;
+    top: -2px;
+    margin-left: 71px;
+    width: 78px;
+    height: 19px;
+}
+.publications_btn:nth-child(5) {
+    position: relative;
+    top: -8px;
+    margin-left: 53px;
+    width: 142px;
+    height: 26px;
+}
+.publications_btn:nth-child(6) {
+    position: relative;
+    top: -12px;
+    margin-left: 64px;
+    width: 56px;
+    height: 38px;
+}
+
 
   
 
@@ -757,6 +811,69 @@ h1, h2, h3, h4, h5, h6, p{
     z-index: -1;
 }
   
+.companies_btns {
+    opacity: 0;
+    position: absolute;
+    left: 490px;
+    top: 2598px;
+    display: flex;
+}
+.companies_btn {
+    padding: 0;
+    margin: 0;
+}
+.companies_btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.companies_btn:nth-child(1) {
+    width: 71px;
+    height: 50px;
+}
+.companies_btn:nth-child(2) {
+    position: relative;
+    top: 2px;
+    margin-left: 72px;
+    width: 60px;
+    height: 45px;
+}
+.companies_btn:nth-child(3) {
+    position: relative;
+    top: 2px;
+    margin-left: 57px;
+    width: 103px;
+    height: 48px;
+}
+.companies_btn:nth-child(4) {
+    position: relative;
+    top: 14px;
+    margin-left: 31px;
+    width: 112px;
+    height: 26px;
+}
+.companies_btn:nth-child(5) {
+    position: relative;
+    top: 2px;
+    margin-left: 59px;
+    width: 46px;
+    height: 46px;
+}
+.companies_btn:nth-child(6) {
+    position: relative;
+    top: 15px;
+    margin-left: 55px;
+    width: 121px;
+    height: 21px;
+}
+.companies_btn:nth-child(7) {
+    position: relative;
+    top: 6px;
+    margin-left: 56px;
+    width: 42px;
+    height: 37px;
+}
+
 
 /* ===================== footer ======================== */
 

@@ -37,6 +37,7 @@ a {
     text-decoration: none;
 }
 
+
 button{
     cursor: pointer;
     border: none;
@@ -496,7 +497,7 @@ h1, h2, h3, h4, h5, h6, p{
     text-decoration: none;
     color: rgb(103, 103, 103);
     padding-top: 15px;
-    letter-spacing: 0.35px;
+    letter-spacing: 0.3px;
 }
 .btn_Security:hover {
     box-shadow: -2px 2px 10px #181818;
@@ -616,9 +617,10 @@ h1, h2, h3, h4, h5, h6, p{
 .any_device {
     text-align: right;
     position: absolute;
-    left: 670px;
-    top: 1849px;
+    left: 672px;
+    top: 1852px;
     width: 436px;
+    letter-spacing: 0.2px;
 }
 .any_device h3 {
     font-size: 36px;
@@ -628,16 +630,22 @@ h1, h2, h3, h4, h5, h6, p{
     height: 34px;
 }
 .any_device p {
-    width: 433px;
+    width: 453px;
     font-size: 16px;
     color: rgb(149, 147, 147);
     line-height: 1.375;
     height: 60px;
-    margin-top: 19px;
+    margin-top: 12px;
+    letter-spacing: 0.1px;
+    padding-right: 24.1px;
+    
 }
 
 .download_buttons {
-    margin-top: 31px;
+    margin-top: 35px;
+    width: 440px;
+    text-align: left;
+    padding-left: 62px;
 }
 .download_buttons button {
     width: 180px;
@@ -647,10 +655,10 @@ h1, h2, h3, h4, h5, h6, p{
 } 
 .app_store_btn {
     background-image: url("../images/app_store_download.png");
+    margin-right: 10px;
 }
 .google_play_btn {
     background-image: url("../images/google_play_download.png");
-    margin-left: 13px;
 }
 .download_buttons button a {
     display: inline-block;
@@ -702,7 +710,7 @@ footer {
 }
 .links_list ul {
     direction: rtl;
-    margin: 27px 5px 0 -3px;
+    margin: 23px 0 0 -5px;
     padding: 0;
     padding-right: 16px;
     font-size: 14px;
@@ -713,26 +721,33 @@ footer {
 }
 .links_list a {
     text-decoration: solid;
+    display: inline;
+    position: relative;
+    right: -3px;
 }
 .links_list a:hover {
     text-decoration: underline;
 }
 
 
+
 .company_section {
     width: 72px;
     position: absolute;
     left: 647px;
+    padding-top: 4px;
 }
 .legal_section {
     width: 140px;
     position: absolute;
-    left: 837px;
+    left: 830px;
+    padding-top: 4px;
 }
 .neutronmail_section {
     width: 113px;
     position: absolute;
-    left: 1070px;
+    left: 1059px;
+    padding-top: 4px;
 }
 
 .social_media_nav {
@@ -752,7 +767,7 @@ footer {
     font-size: 12px;
     line-height: 23px;
     text-decoration: solid;
-    letter-spacing: -0.1px;
+    letter-spacing: -0.07px;
 }
 .social_media_nav nav a:first-child {
     padding-left: 0;

@@ -72,16 +72,12 @@ h1, h2, h3, h4, h5, h6, p{
 .header {
     min-height: 170px;
     padding-top: 78px;
-    margin-bottom: 24px;
-}
-
-.header__top {
     display: flex;
     justify-content: space-between;
     align-items: top;
     width: 100%;
     max-width: 1400px;
-    margin: 0 auto 30px;
+    margin: 0 auto 24px;
 }
 
 .header__logo {
@@ -110,6 +106,9 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 0;
     font-size: 14px;
     letter-spacing: 0.135px;
+    position: absolute;
+    top: 133px;
+    left: 199px;
 }
 
 .lang--item{
@@ -175,6 +174,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .sign--up--btn{
     width: 94px;
+    height: 41px;
     font-size: 16px;
     color: #ffffff;
     border-radius: 25px;
@@ -201,16 +201,16 @@ h1, h2, h3, h4, h5, h6, p{
     height: 628px;
     background: url("../images/topbg.jpg") 50% no-repeat;
     position: relative;
-}
-
-.intro__text{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding-left: 520px;
-    padding-right: 31px;
-    padding-top: 105px;
-    
+}
+
+.mid__elements{
+    position: absolute;
+    left: 520px;
+    top: 105px;
+    position: relative;
 }
 .intro__block h2{
     font-size: 60px;
@@ -226,8 +226,7 @@ h1, h2, h3, h4, h5, h6, p{
     font-weight: 500;
     margin-bottom: 74px;
     padding-top: 2px;
-    text-align: left;
-    padding-left: 218px;
+    text-align: center;
     letter-spacing: 0.25px;
 }
 
@@ -253,8 +252,11 @@ h1, h2, h3, h4, h5, h6, p{
     display: flex;
     align-items: center;
     width: 410px;
-    margin-left: 177px;
+    position: absolute;
+    left: 177px;
+    
 }
+
 
 .intro__icon{
     font-size: 20px;
@@ -284,6 +286,9 @@ h1, h2, h3, h4, h5, h6, p{
 
 .sm__icons__panel{
     padding-top: 25px;
+    position: absolute;
+    right: 31px;
+    top: 105px;
 }
 .apple--icon--btn{
     font-size:24px;

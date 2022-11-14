@@ -70,14 +70,14 @@ h1, h2, h3, h4, h5, h6, p{
 /* =================================== header ====================================*/
 
 .header {
-    min-height: 170px;
+    min-height: 100px;
     padding-top: 78px;
     display: flex;
     justify-content: space-between;
     align-items: top;
     width: 100%;
     max-width: 1400px;
-    margin: 0 auto 24px;
+    margin: 0 auto;
 }
 
 .header__logo {
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6, p{
     color: #858688;
     font-weight: 700;
     padding: 0;
-    margin: 0 0 23px;
+    margin: 0 0;
     padding-top: 2px;
 }
 
@@ -103,12 +103,14 @@ h1, h2, h3, h4, h5, h6, p{
     display: flex;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    position: relative;
+    left: 160px;
+    top: 16px;
     font-size: 14px;
     letter-spacing: 0.135px;
-    position: absolute;
-    top: 133px;
-    left: 199px;
+    padding-bottom: 26px;
+    height: 43px;
+       
 }
 
 .lang--item{
@@ -122,7 +124,7 @@ h1, h2, h3, h4, h5, h6, p{
     cursor: pointer;
     font-weight: bold;
     border-bottom: 1px solid #bfc5d4;
-    padding-bottom: 3px;
+    
 }
 
 .lang--item:first-child{
@@ -199,18 +201,18 @@ h1, h2, h3, h4, h5, h6, p{
 
 .intro__block{
     height: 628px;
-    background: url("../images/topbg.jpg") 50% no-repeat;
     position: relative;
+    background: url("../images/topbg.jpg") 50% no-repeat;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin-top: 31px;
 }
 
 .mid__elements{
-    position: absolute;
+    position: relative;
     left: 520px;
     top: 105px;
-    position: relative;
 }
 .intro__block h2{
     font-size: 60px;
@@ -252,7 +254,7 @@ h1, h2, h3, h4, h5, h6, p{
     display: flex;
     align-items: center;
     width: 410px;
-    position: absolute;
+    position: relative;
     left: 177px;
     
 }
@@ -286,7 +288,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .sm__icons__panel{
     padding-top: 25px;
-    position: absolute;
+    position: relative;
     right: 31px;
     top: 105px;
 }

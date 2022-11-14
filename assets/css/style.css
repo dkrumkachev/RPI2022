@@ -337,100 +337,83 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 
-/* ===================== background ======================== */
+.bg_lines {
+    position: relative;
+    background-color: rgb(185, 185, 185);
+    display: inline-block;
+}
 
-.bg_lines div {
-    position: absolute;
-    background-color: rgb(185, 185, 185)
-}
-.bg_lines div:nth-child(1) {
-    left: 714px;
-    top: 785px;
-    width: 1px;
-    height: 210px;
-}
-.bg_lines div:nth-child(2) {
-    left: 1146px;
-    top: 917px;
-    width: 1px;
-    height: 433px;
-}
-.bg_lines div:nth-child(3) {
-    left: 1608px;
-    top: 917px;
-    width: 192px;
-    height: 1px;
-}
-.bg_lines div:nth-child(4) {
+.bg_line4 {
     background-color: rgb(191, 191, 191);
     left: -416px;
     top: 1381px;
+    
     width: 1400px;
     height: 1px;
 }
-.bg_lines div:nth-child(5) {
-    left: 400px;
-    top: 2211px;
-    width: 1400px;
-    height: 1px;
-}
-.bg_lines div:nth-child(6) {
-    left: -77px;
-    top: 2538px;
-    width: 1476px;
-    height: 1px;
-}
-.bg_lines div:nth-child(7) {
-    left: 200px;
-    top: 2829px;
-    width: 1px;
-    height: 131px;
-}
-.bg_lines div:nth-child(8) {
-    left: 946px;
-    top: 2825px;
-    width: 1px;
-    height: 316px;
-}
-.bg_lines div:nth-child(9) {
-    left: 1399px;
-    top: 2538px;
-    width: 1px;
-    height: 441px;
-}  
+
   
 
 /* ===================== info ======================== */
 
 .info_blocks {
     display: flex;
-    padding-left: 322px;
-    position: absolute;
-    top: 910px;
+    position: relative;
+    left: 322px;
+    top: 89px;
     letter-spacing: 0.4px;
+    max-width: 1478px;
+    max-height: 344px;
+}
+
+.bg_line1 {
+    left: 34px;
+    top: -122px;
+    width: 1px;
+    height: 206px;
+}
+.bg_line2 {
+    left: 46px;
+    top: 6px;
+    width: 1px;
+    height: 433px;
+}
+.bg_line3 {
+    left: 47px;
+    top: 6px;
+    width: 192px;
+    height: 1px;    
 }
 
 .SwissPrivacy {
     width: 358px;
 }
+
 .DoubleEncryption {
-    margin-left: 80px;
-    width: 340px;
+    margin-left: 75px;
+    width: 344px;
 }
+
 .AnonymousEmail {
-    margin-left: 97px;
+    margin-left: 96px;
     width: 363px;
 }
 
+.block_head {
+    display: flex;
+    padding-top: 1px;
+}
+
 .block_name {
-    padding-left: 60px;
+    padding-left: 16px;
+    display: inline-block;
 }
 
 .line1 { 
     line-height: 32px;
     font-size: 30px;
     color: #555555;
-    padding-top: 4px;
+    padding-top: 2px;
     letter-spacing: .4px;
 }
 .line2 { 
@@ -440,9 +423,8 @@ h1, h2, h3, h4, h5, h6, p{
     letter-spacing: 0.2px;
 }
 
-
 .block_text {
-    margin-top: 27px;
+    margin-top: 28px;
     word-wrap: normal;
     line-height: 1.571;
     font-size: 14px;
@@ -450,36 +432,41 @@ h1, h2, h3, h4, h5, h6, p{
     letter-spacing: 0.125px;
 }
 
+.SwissPrivacy .block_name {
+    padding-left: 18px;
+}
+
+.DoubleEncryption .block_name {
+    padding-left: 15px;
+}
+
+.DoubleEncryption p {
+    padding-left: 4px;
+}
+
 .shield_img {
     background-image: url("../images/shield.png");  
-    position: absolute;
-    left: 308px;
-    width: 67px;
-    height: 68px;
+    width: 41px;
+    height: 55px;
 }
 .lock_img {
     background-image: url("../images/lock.png");
-    position: absolute;
-    left: 732px;
-    width: 95px;
-    height: 60px;
-    z-index: -1;
+    width: 48px;
+    height: 48px;
 }
 .key_img {
     background-image: url("../images/key.png");
-    position: absolute;
-    left: 1181px;
-    width: 70px;
-    height: 60px;
+    width: 43px;
+    height: 52px;
 }
 
 
 .PhysicalSecurity {
-    position: absolute;
-    top: 1223px;
+    position: relative;
+    top: 57px;
+    left: 453px;
     text-align: right;
     width: 655px;
-    margin-left: 453px;
     margin-right: auto;
 }
 .PhysicalSecurity div {
@@ -487,25 +474,38 @@ h1, h2, h3, h4, h5, h6, p{
     margin: 0;
     color: rgb(83, 83, 83);
     line-height: 0.367;
-
-    letter-spacing: 0.7px;
+    letter-spacing: 0.6px;
 }
 .PhysicalSecurity p {
-    margin-top: 35px;
+    margin-top: 36px;
+    padding-left: 7px;
     font-size: 24px;
     color: rgb(149, 147, 147);
     line-height: 0.917;
-    letter-spacing: 0.3px;
-    padding-right: 2.5px;
+    letter-spacing: 0.26px;
+    padding-right: 3px;
 }
 .PhysicalSecurity p span {
     color: #f65151;
 }
 
+.bg_line4 {
+    left: 0px;
+    top: 100px;
+    width: 1300px;
+    height: 1px;    
+}
 .btn_Security {
-    position: absolute;
+    position: relative;
     left: 974px;
-    top: 1351px;
+    top: 67px;
+    width: 334px;
+    height: 62px;
+    border-radius: 31px;  
+
+}
+.btn_Security button{
+    
     width: 334px;
     height: 62px;
     
@@ -529,25 +529,22 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .btn_Security:hover {
     box-shadow: -2px 2px 10px #181818;
-    /* opacity: 0.8;
-    background: linear-gradient(0.25turn, #3dafe2, #5e7bea);
-    box-shadow: -2px 2px 10px #5552c8; */
 }
 
 
 .publications {
     background-image: url("../images/background_publications.png");
-    position: absolute;
+    position: relative;
     left: 21px;
-    top: 1452px;
+    top: 106px;
     width: 943px;
     height: 66px;
 }
 .publications_btns {
     opacity: 0;
-    position: absolute;
+    position: relative;
     left: 37px;
-    top: 1478px;
+    top: 64px;
     display: flex;
 }
 .publications_btn {
@@ -604,11 +601,12 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 .slider {
-    position: absolute;
+    position: relative;
     left: 364px;
-    top: 1576px;
+    top: 124px;
     display: flex;
     height: 150px;
+    width: 580px;
     overflow-y: hidden;
 }
 .slides {
@@ -686,11 +684,12 @@ h1, h2, h3, h4, h5, h6, p{
 
 .laptop_img {
     background-image: url("../images/laptop.png");
-    position: absolute;
+    position: relative;
     left: 952px;
-    top: 1559px;
+    top: -257px;
     width: 578px;
     height: 670px;
+    z-index: -1;
 }
 .bg_shadow {
     background: url("../images/background_shadow.png") no-repeat;
@@ -703,10 +702,11 @@ h1, h2, h3, h4, h5, h6, p{
 } 
 
 .any_device {
+    display: inline-block;
     text-align: right;
-    position: absolute;
+    position: relative;
     left: 672px;
-    top: 1852px;
+    top: 250px;
     width: 436px;
     letter-spacing: 0.2px;
 }
@@ -724,13 +724,13 @@ h1, h2, h3, h4, h5, h6, p{
     line-height: 1.375;
     height: 60px;
     margin-top: 12px;
-    letter-spacing: 0.1px;
-    padding-right: 24.1px;
+    letter-spacing: 0.10px;
+    padding-right: 24px;
     
 }
 
 .download_buttons {
-    margin-top: 35px;
+    margin-top: 37px;
     width: 440px;
     text-align: left;
     padding-left: 62px;
@@ -757,11 +757,20 @@ h1, h2, h3, h4, h5, h6, p{
     box-shadow: -2px 2px 10px #181818;
 }
 
+.bg_line5 {
+    left: 400px;
+    top: 398px;
+    width: 1400px;
+    height: 1px;
+    z-index: -1;
+}
+
 
 .Privacy {
-    position: absolute;
+    display: inline-block;
+    position: relative;
     left: 578px;
-    top: 2289px;
+    top: -197px;
     width: 644px;
     letter-spacing: 0.25px;
 }
@@ -778,17 +787,18 @@ h1, h2, h3, h4, h5, h6, p{
     color: #7c7c7c;
     line-height: 37px;
     letter-spacing: 0.17px;
-    margin-top: 7px;
+    margin-top: 6px;
 }
 
 .upgrade_buttons {
-    position: absolute;
-    top: 103px;
+    padding-top: 30px;
 }
 .upgrade_buttons button {
     font-weight: 600;
     font-family: inherit;
     background: linear-gradient(to right, #646c93, #5f2e69);
+    border-radius: 28px;
+    height: 60px;
 }
 .upgrade_buttons button a {
     display: inline-block;
@@ -797,7 +807,7 @@ h1, h2, h3, h4, h5, h6, p{
     width: 100%;
     height: 100%;
     padding-left: 3px;
-    padding-top: 12px;
+    padding-top: 13px;
     letter-spacing: 0.3px;
 }
 
@@ -812,32 +822,41 @@ h1, h2, h3, h4, h5, h6, p{
 
      
 .upgrade {
-    margin-left: 90px;
     width: 246px;
-    height: 56px;
-    border-radius: 28px;
 }
 .donate {
     margin-left: 45px;
     width: 166px;
-    height: 56px;
-    border-radius: 28px;
 }
 
+
+.bg_line6 {
+    left: 0px;
+    top: -130px;
+    width: 1400px;
+    height: 1px;
+    display: inline-block;
+}
+.bg_line7 {
+    left: 0px;
+    top: 0px;
+    width: 1px;
+    height: 441px;
+}
 
 .those_who_help {
     font-size: 14px;
     color: rgb(122, 122, 122);
-    position: absolute;
+    position: relative;
     left: 1143px;
-    top: 2560px;
+    top: -112px;
     letter-spacing: 0.15px;
 }
 .companies {
     background-image: url("../images/companies.png");
-    position: absolute;
+    position: relative;
     left: 465px;
-    top: 2574px;
+    top: -111px;
     width: 974px;
     height: 92px;
     z-index: -1;
@@ -845,9 +864,8 @@ h1, h2, h3, h4, h5, h6, p{
   
 .companies_btns {
     opacity: 0;
-    position: absolute;
     left: 490px;
-    top: 2598px;
+    top: 0px;
     display: flex;
 }
 .companies_btn {

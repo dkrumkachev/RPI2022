@@ -99,37 +99,6 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 
-.language__block{
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    position: relative;
-    left: 160px;
-    top: 16px;
-    font-size: 14px;
-    letter-spacing: 0.135px;
-    padding-bottom: 26px;
-    height: 43px;
-       
-}
-
-.lang--item{
-    padding: 0;
-}
-.slash{
-    padding: 0 10px;
-}
-
-.lang--item:hover{
-    cursor: pointer;
-    font-weight: bold;
-    border-bottom: 1px solid #bfc5d4;
-    
-}
-
-.lang--item:first-child{
-    padding-left: 0;
-}
 
 .header__links{
     padding-top: 2px;
@@ -194,6 +163,37 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 /* ================================= main ==========================*/
+.language__block{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    position: relative;
+    left: 160px;
+    top: 16px;
+    font-size: 14px;
+    letter-spacing: 0.135px;
+    padding-bottom: 26px;
+    height: 43px;
+       
+}
+
+.lang--item{
+    padding: 0;
+}
+.slash{
+    padding: 0 10px;
+}
+
+.lang--item:hover{
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 1px solid #bfc5d4;
+    
+}
+
+.lang--item:first-child{
+    padding-left: 0;
+}
 
 
 
@@ -349,7 +349,6 @@ h1, h2, h3, h4, h5, h6, p{
     background-color: rgb(191, 191, 191);
     left: -416px;
     top: 1381px;
-    
     width: 1400px;
     height: 1px;
 }
@@ -359,13 +358,13 @@ h1, h2, h3, h4, h5, h6, p{
 /* ===================== info ======================== */
 
 .info_blocks {
-    display: flex;
+    display: inline-flex;
     position: relative;
     left: 322px;
-    top: 89px;
+    margin-top: 90px;
     letter-spacing: 0.4px;
-    max-width: 1478px;
-    max-height: 344px;
+    width: 1478px;
+    max-height: 173px;
 }
 
 .bg_line1 {
@@ -464,21 +463,25 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 .PhysicalSecurity {
+    display: inline-block;
     position: relative;
-    top: 57px;
+    top: 139px;
     left: 453px;
     text-align: right;
-    width: 655px;
-    margin-right: auto;
+    margin-bottom: 70px;
 }
-.PhysicalSecurity div {
+.PhysicalSecurity h3 {
+    width: 655px;
+    font-weight: normal;
     font-size: 60px;
+    height: auto;
     margin: 0;
     color: rgb(83, 83, 83);
     line-height: 0.367;
     letter-spacing: 0.6px;
 }
 .PhysicalSecurity p {
+    width: 655px;
     margin-top: 36px;
     padding-left: 7px;
     font-size: 24px;
@@ -491,23 +494,17 @@ h1, h2, h3, h4, h5, h6, p{
     color: #f65151;
 }
 
-.bg_line4 {
-    left: 0px;
-    top: 100px;
-    width: 1300px;
-    height: 1px;    
-}
+
 .btn_Security {
     position: relative;
-    left: 974px;
-    top: 67px;
+    left: 521px;
+    margin-top: 26px;
     width: 334px;
     height: 62px;
     border-radius: 31px;  
 
 }
 .btn_Security button{
-    
     width: 334px;
     height: 62px;
     
@@ -533,12 +530,18 @@ h1, h2, h3, h4, h5, h6, p{
     box-shadow: -2px 2px 10px #181818;
 }
 
+.bg_line4 {
+    left: 0px;
+    top: 24px;
+    width: 1300px;
+    height: 1px;    
+    z-index: -1;
+}
 
 .publications {
     background-image: url("../images/background_publications.png");
-    position: relative;
-    left: 21px;
-    top: 106px;
+    margin-left: 21px;
+    margin-top: 92px;
     width: 943px;
     height: 66px;
 }
@@ -546,7 +549,7 @@ h1, h2, h3, h4, h5, h6, p{
     opacity: 0;
     position: relative;
     left: 37px;
-    top: 64px;
+    top: -40px;
     display: flex;
 }
 .publications_btn {
@@ -568,29 +571,25 @@ h1, h2, h3, h4, h5, h6, p{
     height: 12px;
 }
 .publications_btn:nth-child(3) {
-    position: relative;
-    top: -2px;
+    margin-top: -2px;
     margin-left: 61px;
     width: 106px;
     height: 17px;
 }
 .publications_btn:nth-child(4) {
-    position: relative;
-    top: -2px;
+    margin-top: -2px;
     margin-left: 71px;
     width: 78px;
     height: 19px;
 }
 .publications_btn:nth-child(5) {
-    position: relative;
-    top: -8px;
+    margin-top: -8px;
     margin-left: 53px;
     width: 142px;
     height: 26px;
 }
 .publications_btn:nth-child(6) {
-    position: relative;
-    top: -12px;
+    margin-top: -12px;
     margin-left: 64px;
     width: 56px;
     height: 38px;
@@ -605,16 +604,18 @@ h1, h2, h3, h4, h5, h6, p{
 .slider {
     position: relative;
     left: 364px;
-    top: 124px;
-    display: flex;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: inline-flex;
     height: 150px;
-    width: 580px;
+    width: 1436px;
     overflow-y: hidden;
 }
 .slides {
     max-height: 150px;
     transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
     margin-left: 26px;
+    padding-top: 2px;
     letter-spacing: 0.25px;
 }
 .slide {
@@ -684,23 +685,15 @@ h1, h2, h3, h4, h5, h6, p{
 
 /* ============================================================ */
 
-.laptop_img {
-    background-image: url("../images/laptop.png");
-    position: relative;
-    left: 952px;
-    top: -257px;
-    width: 578px;
-    height: 670px;
-    z-index: -1;
-}
+
 .bg_shadow {
-    background: url("../images/background_shadow.png") no-repeat;
+    background: url("../images/bg.png") no-repeat;
     position: absolute;
     left: 0px;
-    top: 1675px;
+    top: 1559px;
     width: 1800px;
     height: 1052px;   
-    opacity: 0.29;
+    z-index: -1;
 } 
 
 .any_device {
@@ -708,8 +701,9 @@ h1, h2, h3, h4, h5, h6, p{
     text-align: right;
     position: relative;
     left: 672px;
-    top: 250px;
+    margin-top: 67px;
     width: 436px;
+    height: 347px;
     letter-spacing: 0.2px;
 }
 .any_device h3 {
@@ -732,7 +726,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .download_buttons {
-    margin-top: 37px;
+    margin-top: 36px;
     width: 440px;
     text-align: left;
     padding-left: 62px;
@@ -761,18 +755,17 @@ h1, h2, h3, h4, h5, h6, p{
 
 .bg_line5 {
     left: 400px;
-    top: 398px;
     width: 1400px;
     height: 1px;
-    z-index: -1;
+    z-index: -2;
 }
-
 
 .Privacy {
     display: inline-block;
     position: relative;
     left: 578px;
-    top: -197px;
+    margin-top: 75px;
+    margin-bottom: 80px;
     width: 644px;
     letter-spacing: 0.25px;
 }
@@ -831,44 +824,44 @@ h1, h2, h3, h4, h5, h6, p{
     width: 166px;
 }
 
-
-.bg_line6 {
-    left: 0px;
-    top: -130px;
-    width: 1400px;
+.lines_6_7 {
+    display: flex;
     height: 1px;
-    display: inline-block;
+}
+.bg_line6 {
+    width: 1399px;
+    height: 1px;
 }
 .bg_line7 {
-    left: 0px;
-    top: 0px;
     width: 1px;
     height: 441px;
 }
 
 .those_who_help {
+    display: inline-block;
     font-size: 14px;
     color: rgb(122, 122, 122);
     position: relative;
-    left: 1143px;
-    top: -112px;
-    letter-spacing: 0.15px;
+    left: 465px;
+    margin-top: 20px;
+}
+.those_who_help .text {
+    display: inline-block;
+    position: relative;
+    letter-spacing: 0.11px;
+    left: 679px;
 }
 .companies {
     background-image: url("../images/companies.png");
-    position: relative;
-    left: 465px;
-    top: -111px;
-    width: 974px;
+    margin-top: 1px;
+    width: 930px;
     height: 92px;
-    z-index: -1;
 }
   
 .companies_btns {
-    opacity: 0;
-    left: 490px;
-    top: 0px;
+    margin-top: -69px;
     display: flex;
+    opacity: 0;
 }
 .companies_btn {
     padding: 0;
@@ -882,45 +875,46 @@ h1, h2, h3, h4, h5, h6, p{
 .companies_btn:nth-child(1) {
     width: 71px;
     height: 50px;
+    margin-left: 24px; 
 }
 .companies_btn:nth-child(2) {
     position: relative;
-    top: 2px;
+    margin-top: 2px;
     margin-left: 72px;
     width: 60px;
     height: 45px;
 }
 .companies_btn:nth-child(3) {
     position: relative;
-    top: 2px;
+    margin-top: 2px;
     margin-left: 57px;
     width: 103px;
     height: 48px;
 }
 .companies_btn:nth-child(4) {
     position: relative;
-    top: 14px;
+    margin-top: 14px;
     margin-left: 31px;
     width: 112px;
     height: 26px;
 }
 .companies_btn:nth-child(5) {
     position: relative;
-    top: 2px;
+    margin-top: 2px;
     margin-left: 59px;
     width: 46px;
     height: 46px;
 }
 .companies_btn:nth-child(6) {
     position: relative;
-    top: 15px;
+    margin-top: 15px;
     margin-left: 55px;
     width: 121px;
     height: 21px;
 }
 .companies_btn:nth-child(7) {
     position: relative;
-    top: 6px;
+    margin-top: 6px;
     margin-left: 56px;
     width: 42px;
     height: 37px;
@@ -930,27 +924,35 @@ h1, h2, h3, h4, h5, h6, p{
 /* ===================== footer ======================== */
 
 footer {
-    height: 180px;
-    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
     position: relative;
+    width: 1200px;
+    top: 172px;
     left: 200px;
-    top: 1999px;
+}
+
+.bg_line8 {
+    margin-top: 8px;
+    width: 1px;
+    height: 131px;
 }
 
 footer .links{
-    display: flex;  
+    display: inline-flex;
+    width: 1200px;  
+    max-height: 171px;
 }
 .contacts {
-    height: 130px;
+    width: 215px;
     margin-left: 20px;
-    margin-top: 1px;
     color: #5c5c5c;
     font-size: 14px;
     line-height: 23px;
 }
 
 .contacts b{
-    letter-spacing: 0.27px;
+    letter-spacing: 0.20px;
 }
 .contacts a {
     font-weight: 700;
@@ -962,6 +964,8 @@ footer .links{
 }
 
 footer section {
+    position: relative;
+    margin-top: 2px;
     text-align: right;
     line-height: 23px;
     color: #5c5c5c;
@@ -969,48 +973,53 @@ footer section {
 
 footer section ul {
     direction: rtl;
-    margin: 23px 0 0 -4px;
+    margin: 24px 0 0 -4px;
     padding: 0;
-    padding-right: 16px;
+    padding-right: 17px;
     font-size: 14px;
     letter-spacing: 0.1px;
 }
 footer section h4 {
     font-size: 18px;
+    letter-spacing: 0.28;
 }
 .list_item a {
     text-decoration: solid;
     display: inline;
-    position: relative;
-    right: -4px;
+    margin-right: -4px;
 }
 .list_item a:hover {
     text-decoration: underline;
 }
 
-
 .company_section {
     width: 72px;
-    position: relative;
-    left: 413px;
-    padding-top: 4px;
+    left: 412px;
+}
+.bg_line9 {
+    left: 438px;
+    top: 4px;
+    width: 1px;
+    height: 315px;
 }
 .legal_section {
     width: 140px;
-    position: relative;
-    left: 524px;
-    padding-top: 4px;
+    left: 523px;
 }
 .neutronmail_section {
     width: 113px;
-    position: relative;
-    left: 613px;
-    padding-top: 4px;
+    left: 612px;
+}
+.neutronmail_section h4 {
+    letter-spacing: 0.3px;
+}
+
+.social_media {
+    margin-top: 66px;
 }
 
 .social_media_nav {
     display: flex;
-    margin-top: 73px;
 }
 .slash2{
     font-size: 12px;
@@ -1020,18 +1029,19 @@ footer section h4 {
     color: #5c5c5c;
     font-size: 12px;
     line-height: 23px;
-    text-decoration: solid;
+    text-decoration: underline;
+    text-decoration-color: #d6d6d6;
     letter-spacing: -0.07px;
 }
 .social_media_nav a:first-child {
-    padding-left: 0;
+    padding-left: 1px;
 }
 .social_media_nav a:hover {
     text-decoration: underline;
 }
 
 .copyright {
-    margin-top: 7px;
+    margin-top: 8px;
     color: #5c5c5c;
     font-size: 12px;
     line-height: 23px;

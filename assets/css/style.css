@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6, p{
     margin: 0;
     position: relative;
     left: 160px;
-    top: 16px;
+    top: 15px;
     font-size: 14px;
     letter-spacing: 0.135px;
     padding-bottom: 26px;
@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5, h6, p{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-top: 31px;
+    margin-top: 32px;
 }
 
 .mid__elements{

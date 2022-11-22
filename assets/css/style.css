@@ -921,18 +921,17 @@ h1, h2, h3, h4, h5, h6, p{
 /* ===================== footer ======================== */
 
 footer {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    position: relative;
-    width: 1200px;
-    top: 172px;
-    left: 200px;
+    align-items: center;
+    width: 1600px;
+    height: 446px;
+    justify-content: flex-end;
 }
 
 footer .links{
-    display: inline-flex;
+    display: flex;
     width: 1200px;  
-    max-height: 171px;
 }
 .contacts {
     width: 215px;
@@ -955,7 +954,6 @@ footer .links{
 }
 
 footer section {
-    position: relative;
     margin-top: 2px;
     text-align: right;
     line-height: 23px;
@@ -984,24 +982,22 @@ footer section h4 {
 }
 
 .company_section {
-    width: 72px;
-    left: 412px;
+    width: 485px;
 }
 
 .legal_section {
-    width: 140px;
-    left: 523px;
+    width: 251px;
 }
 .neutronmail_section {
-    width: 113px;
-    left: 612px;
+    width: 202px;
 }
 .neutronmail_section h4 {
-    letter-spacing: 0.3px;
+    letter-spacing: 0.1px;
 }
 
 .social_media {
-    margin-top: 66px;
+    width: 1200px;
+    margin-top: 73px;
 }
 
 .social_media_nav {
@@ -1027,6 +1023,7 @@ footer section h4 {
 }
 
 .copyright {
+    width: 1200px;
     margin-top: 8px;
     color: #5c5c5c;
     font-size: 12px;

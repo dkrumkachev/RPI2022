@@ -340,17 +340,64 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 .bg_lines {
-    position: relative;
+    position: absolute;
     background-color: rgb(185, 185, 185);
-    display: inline-block;
 }
-
+.bg_line1 {
+    left: 714px;
+    top: 785px;
+    width: 1px;
+    height: 210px;
+}
+.bg_line2 {
+    left: 1146px;
+    top: 917px;
+    width: 1px;
+    height: 433px;
+}
+.bg_line3 {
+    left: 1608px;
+    top: 917px;
+    width: 269px;
+    height: 1px;
+}
 .bg_line4 {
-    background-color: rgb(191, 191, 191);
     left: -416px;
     top: 1381px;
     width: 1400px;
     height: 1px;
+    z-index: -1;
+}
+.bg_line5 {
+    left: 400px;
+    top: 2211px;
+    width: 1476px;
+    height: 1px;
+    z-index: -1;
+}
+.bg_line6 {
+    left: -77px;
+    top: 2538px;
+    width: 1476px;
+    height: 1px;
+}
+.bg_line7 {
+    left: 1399px;
+    top: 2538px;
+    width: 1px;
+    height: 441px;
+}
+.bg_line8 {
+    left: 200px;
+    top: 2829px;
+    width: 1px;
+    height: 131px;
+}
+.bg_line9 {
+    left: 946px;
+    top: 2825px;
+    width: 1px;
+    height: 441px;
 }
 
   
@@ -358,45 +405,25 @@ h1, h2, h3, h4, h5, h6, p{
 /* ===================== info ======================== */
 
 .info_blocks {
-    display: inline-flex;
-    position: relative;
-    left: 322px;
-    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 89px;
     letter-spacing: 0.4px;
-    width: 1478px;
-    max-height: 173px;
-}
-
-.bg_line1 {
-    left: 34px;
-    top: -122px;
-    width: 1px;
-    height: 206px;
-}
-.bg_line2 {
-    left: 46px;
-    top: 6px;
-    width: 1px;
-    height: 433px;
-}
-.bg_line3 {
-    left: 47px;
-    top: 6px;
-    width: 192px;
-    height: 1px;    
+    height: 173px;
 }
 
 .SwissPrivacy {
+    margin-left: 82px;
     width: 358px;
 }
 
 .DoubleEncryption {
-    margin-left: 75px;
+    margin-left: 76px;
     width: 344px;
 }
 
 .AnonymousEmail {
-    margin-left: 96px;
+    margin-left: 97px;
     width: 363px;
 }
 
@@ -463,15 +490,24 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 .PhysicalSecurity {
-    display: inline-block;
-    position: relative;
-    top: 139px;
-    left: 453px;
-    text-align: right;
-    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 329px;
+    width: 1308px;
 }
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 906px;
+    align-self: center;
+    text-align: right;
+}
+
 .PhysicalSecurity h3 {
-    width: 655px;
     font-weight: normal;
     font-size: 60px;
     height: auto;
@@ -496,11 +532,11 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 .btn_Security {
-    position: relative;
     left: 521px;
     margin-top: 26px;
     width: 334px;
     height: 62px;
+    align-self: flex-end;
     border-radius: 31px;  
 
 }
@@ -530,29 +566,18 @@ h1, h2, h3, h4, h5, h6, p{
     box-shadow: -2px 2px 10px #181818;
 }
 
-.bg_line4 {
-    left: 0px;
-    top: 24px;
-    width: 1300px;
-    height: 1px;    
-    z-index: -1;
-}
-
 .publications {
     background-image: url("../images/background_publications.png");
-    margin-left: 21px;
-    margin-top: 92px;
-    width: 943px;
+
     height: 66px;
-}
-.publications_btns {
-    opacity: 0;
-    position: relative;
-    left: 37px;
-    top: -40px;
+    width: 943px;
+    margin-left: 21px;
+    margin-top: 39px;
     display: flex;
 }
 .publications_btn {
+    align-self: center;
+    opacity: 0;
     padding: 0;
     margin: 0;
 }
@@ -562,6 +587,7 @@ h1, h2, h3, h4, h5, h6, p{
     height: 100%;
 }
 .publications_btn:nth-child(1) {
+    margin-left: 15px;
     width: 125px;
     height: 14px;
 }
@@ -589,7 +615,7 @@ h1, h2, h3, h4, h5, h6, p{
     height: 26px;
 }
 .publications_btn:nth-child(6) {
-    margin-top: -12px;
+    margin-top: -5px;
     margin-left: 64px;
     width: 56px;
     height: 38px;
@@ -602,13 +628,11 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 .slider {
-    position: relative;
-    left: 364px;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
     height: 150px;
-    width: 1436px;
+    width: 1292px;
     overflow-y: hidden;
 }
 .slides {
@@ -697,39 +721,39 @@ h1, h2, h3, h4, h5, h6, p{
 } 
 
 .any_device {
-    display: inline-block;
-    text-align: right;
-    position: relative;
-    left: 672px;
-    margin-top: 67px;
-    width: 436px;
-    height: 347px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 326px;
     letter-spacing: 0.2px;
 }
+.any_device .text {
+    width: 438px;
+    text-align: right;
+    margin-right: 21px;
+}
 .any_device h3 {
+    height: 46px;
     font-size: 36px;
     font-weight: normal;
     color: rgb(83, 83, 83);
     line-height: 0.611;
-    height: 34px;
 }
 .any_device p {
-    width: 453px;
+    width: 441px;
     font-size: 16px;
     color: rgb(149, 147, 147);
     line-height: 1.375;
     height: 60px;
-    margin-top: 12px;
-    letter-spacing: 0.10px;
-    padding-right: 24px;
-    
+    letter-spacing: 0.14px;
+    padding-right: 6px;
 }
 
 .download_buttons {
     margin-top: 36px;
     width: 440px;
-    text-align: left;
-    padding-left: 62px;
+    padding-left: 54px;
 }
 .download_buttons button {
     width: 180px;
@@ -753,20 +777,13 @@ h1, h2, h3, h4, h5, h6, p{
     box-shadow: -2px 2px 10px #181818;
 }
 
-.bg_line5 {
-    left: 400px;
-    width: 1400px;
-    height: 1px;
-    z-index: -2;
-}
-
 .Privacy {
-    display: inline-block;
-    position: relative;
-    left: 578px;
-    margin-top: 75px;
-    margin-bottom: 80px;
-    width: 644px;
+    display: flex;
+    flex-direction: column;
+    height: 408px;
+    justify-content: flex-end;
+    align-content: center;
+    /* width: 644px; */
     letter-spacing: 0.25px;
 }
 .Privacy h3 {
@@ -824,48 +841,34 @@ h1, h2, h3, h4, h5, h6, p{
     width: 166px;
 }
 
-.lines_6_7 {
-    display: flex;
-    height: 1px;
-}
-.bg_line6 {
-    width: 1399px;
-    height: 1px;
-}
-.bg_line7 {
-    width: 1px;
-    height: 441px;
-}
 
 .those_who_help {
-    display: inline-block;
-    font-size: 14px;
-    color: rgb(122, 122, 122);
-    position: relative;
-    left: 465px;
-    margin-top: 20px;
+    margin-left: 41px;
+    display: flex;
+    height: 208px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 .those_who_help .text {
-    display: inline-block;
-    position: relative;
     letter-spacing: 0.11px;
-    left: 679px;
+    font-size: 14px;
+    color: rgb(122, 122, 122);
+    margin-left: 7px;
+    padding-bottom: 1px;
 }
 .companies {
     background-image: url("../images/companies.png");
-    margin-top: 1px;
-    width: 930px;
+    width: 910px;
     height: 92px;
+    display: flex;
+    align-items: center;
 }
   
-.companies_btns {
-    margin-top: -69px;
-    display: flex;
-    opacity: 0;
-}
 .companies_btn {
     padding: 0;
     margin: 0;
+    opacity: 0;
 }
 .companies_btn a {
     display: block;
@@ -878,42 +881,36 @@ h1, h2, h3, h4, h5, h6, p{
     margin-left: 24px; 
 }
 .companies_btn:nth-child(2) {
-    position: relative;
     margin-top: 2px;
     margin-left: 72px;
     width: 60px;
     height: 45px;
 }
 .companies_btn:nth-child(3) {
-    position: relative;
     margin-top: 2px;
     margin-left: 57px;
     width: 103px;
     height: 48px;
 }
 .companies_btn:nth-child(4) {
-    position: relative;
     margin-top: 14px;
     margin-left: 31px;
     width: 112px;
     height: 26px;
 }
 .companies_btn:nth-child(5) {
-    position: relative;
     margin-top: 2px;
     margin-left: 59px;
     width: 46px;
     height: 46px;
 }
 .companies_btn:nth-child(6) {
-    position: relative;
     margin-top: 15px;
     margin-left: 55px;
     width: 121px;
     height: 21px;
 }
 .companies_btn:nth-child(7) {
-    position: relative;
     margin-top: 6px;
     margin-left: 56px;
     width: 42px;
@@ -930,12 +927,6 @@ footer {
     width: 1200px;
     top: 172px;
     left: 200px;
-}
-
-.bg_line8 {
-    margin-top: 8px;
-    width: 1px;
-    height: 131px;
 }
 
 footer .links{
@@ -996,12 +987,7 @@ footer section h4 {
     width: 72px;
     left: 412px;
 }
-.bg_line9 {
-    left: 438px;
-    top: 4px;
-    width: 1px;
-    height: 315px;
-}
+
 .legal_section {
     width: 140px;
     left: 523px;

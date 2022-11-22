@@ -72,14 +72,16 @@ h1, h2, h3, h4, h5, h6, p{
 .header {
     min-height: 100px;
     padding-top: 78px;
-    display: flex;
-    justify-content: space-between;
-    align-items: top;
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
 }
 
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
 .header__logo {
     font-size: 30px;
     color: #858688;
@@ -167,9 +169,9 @@ h1, h2, h3, h4, h5, h6, p{
     display: flex;
     list-style-type: none;
     margin: 0;
-    position: relative;
-    left: 160px;
-    top: 15px;
+    margin-top: 15px;
+    width: 255px;
+    padding-left: 0px;
     font-size: 14px;
     letter-spacing: 0.135px;
     padding-bottom: 26px;
@@ -201,18 +203,25 @@ h1, h2, h3, h4, h5, h6, p{
 
 .intro__block{
     height: 628px;
-    position: relative;
     background: url("../images/topbg.jpg") 50% no-repeat;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: flex-end;
     text-align: center;
-    margin-top: 32px;
+    margin-top: 17px;
 }
-
+.intro__content{
+    width: 1279px;
+    height: 523px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 30px;
+}
 .mid__elements{
-    position: relative;
-    left: 520px;
-    top: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .intro__block h2{
     font-size: 60px;
@@ -254,13 +263,12 @@ h1, h2, h3, h4, h5, h6, p{
     display: flex;
     align-items: center;
     width: 410px;
-    position: relative;
-    left: 177px;
     
 }
 
 
 .intro__icon{
+    
     font-size: 20px;
     width: 46px;
     height: 46px;
@@ -288,9 +296,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .sm__icons__panel{
     padding-top: 25px;
-    position: relative;
-    right: 31px;
-    top: 105px;
+   
 }
 .apple--icon--btn{
     font-size:24px;
@@ -912,22 +918,22 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .companies_btn:nth-child(7) {
     margin-top: 6px;
-    margin-left: 56px;
-    width: 42px;
-    height: 37px;
-}
+        margin-left: 56px;
+        width: 42px;
+        height: 37px;
+    }
 
 
-/* ===================== footer ======================== */
+    /* ===================== footer ======================== */
 
-footer {
-    display: inline-flex;
-    flex-direction: column;
-    position: relative;
-    width: 1200px;
-    top: 172px;
-    left: 200px;
-}
+    footer {
+        display: inline-flex;
+        flex-direction: column;
+        position: relative;
+        width: 1200px;
+        top: 172px;
+        left: 200px;
+    }
 
 footer .links{
     display: inline-flex;
